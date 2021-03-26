@@ -35,7 +35,7 @@ public class Java19 {
         String yourAddress = scanner.nextLine();//tiếp nhận giá trị kiểu chuỗi
         System.out.println("You type "+yourAddress);*/
         
-        System.out.println("My name is \"Luan\""); //My name is "Luan"
+        /*System.out.println("My name is \"Luan\""); //My name is "Luan"
         System.out.printf("\n \t");
         
         int count = 0;
@@ -53,6 +53,30 @@ public class Java19 {
         
         //chuyen ngam dinh 
         int numberIntTwo = 1000;
-        long numberLongTwo = numberIntTwo;
+        long numberLongTwo = numberIntTwo;*/
+        
+        /*2, Viết chương trình nhập vào 3 số 
+            tìm số lớn nhất và in ra màn hình*/
+        
+        int a,b,c,max; 
+        
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Nhap so 1");
+        a = scanner.nextInt();
+        System.out.println("Nhap so 2");
+        b = scanner.nextInt();
+        System.out.println("Nhap so 3");
+        c = scanner.nextInt();
+        
+        max = a ;//gán số đầu tiên là max
+        if(max<b){
+            max = b;
+        }
+        
+        if(max<c){
+            max = c;
+        }
+        
+        System.out.println("So lon nhat la "+ max);
     } 
 }
